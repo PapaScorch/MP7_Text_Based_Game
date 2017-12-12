@@ -12,7 +12,6 @@ private static void pause(final int sec) { //pauses the game for a certain numbe
 private static boolean comparison(final String requirement) {
 	Scanner input = new Scanner(System.in);
 	boolean equal = input.next().toUpperCase().equals(requirement);
-	input.close();
 	return equal;
 }
 
